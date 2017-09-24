@@ -8,7 +8,7 @@ _or_
 
 ### Serena Chen and Evan Lloyd New-Schmidt
 
-We are exploring the different ways of measuring the friendship paradox and why it causes different results in certain types of networks. Specifically, the differences that arise when you measure the friendship paradox by sampling random edges vs. random nodes. This phenomenon was first observed by [Allen P. Downey](https://scholar.google.com/citations?user=GxBFR3sAAAAJ&hl=en), who wrote a Jupyter Notebook showing the differences.
+We are exploring the different ways of measuring the friendship paradox and why it causes different results in certain types of networks. Specifically, the differences that arise when you measure the friendship paradox by sampling random edges vs. random nodes. This phenomenon was first observed by [Allen B. Downey](https://scholar.google.com/citations?user=GxBFR3sAAAAJ&hl=en), who wrote a Jupyter Notebook showing the differences.
 
 We’ll build on what Allen Downey has started replicating Feld’s work and test the node and edge methods for friend sampling across other datasets and with different models. Currently, the notebook shows the distribution for both methods of random sampling, and we can see the difference by visual inspection. We will perform this test on other models as well. We may also be able to define a mathematical relationship between mean/median friend-degree and various metrics of a network.
 
