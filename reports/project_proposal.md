@@ -48,4 +48,7 @@ Newman, M. E., & Park, J. (2003). Why social networks are different from other t
 Newman and Park discuss the structure of social networks and how they differ from other networks. They observe high clustering levels and hypothesize that this is the result of communities in social networks. They propose a model of community structure to explain the clustering.
 
 TODO:
-Kossinets, G. (2006). Effects of missing data in social networks. Social networks, 28(3), 247-268.
+- Effects of missing data in social networks
+- Random graph models of social networks
+- Friendship Paradox Redux: Your Friends Are More Interesting Than You
+- 
