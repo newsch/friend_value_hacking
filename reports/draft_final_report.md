@@ -18,7 +18,16 @@ We started with comparing the distribution of friends-of-friends for a sampling 
 
 We also tried looking at a few graph metrics. One metric we found interesting was degree associativity, or how likely a node would have neighbors with similar degree. The Barabasi-Albert graph has a significantly larger correlation coefficient for degree associativity than the other real-world networks, which means nodes in the Barabasi-Albert graph are more likely to be connected to nodes of similar degree. The real-world networks have coefficients very close to 0, which shows little to no correlation. However, Ugander et. al stated in their paper that the coefficient should be around 0.226 for most social networks, and the NetworkX implementation of this same metric gives wildly different results, so this number may not be accurate. However, if we take these numbers to be accurate descriptions of the graph, then one possible explanation is that sampling by node somehow biases the measure of friends-of-friends to the “friends” that have smaller degree. Another way of putting this is that sampling by node may not be biased towards friends with high degree, while sampling by edge does.
 
-We also tried other metrics, such as clustering coefficient, degeneracy, and path length, but found nothing of note.
+We also tried other metrics, such as clustering coefficient, degeneracy, and path length, but we have not fully analyzed those metrics.
+
+| Network         | Number of Nodes | Number of Edges | Cluster. Coef.  | Degeneracy      | Degree Assoc.   |
+| ---             | ---             | ---             | ---             | ---             | ---             |
+| Barabasi-Albert |            4000 |           79600 |        0.035    |      486        |        0.347    |
+| Facebook        |            4039 |           88234 |        0.605    |     1045        |        0.114    |
+| Enron           |           36692 |          183831 |        0.496    |     1383        |        0.024    |
+| Youtube         |         1134890 |         2987624 |        0.080    |    28754        |       -0.025    |
+
+Table 1: Table of graph metrics
 
 ## Annotated Bibliography
 
