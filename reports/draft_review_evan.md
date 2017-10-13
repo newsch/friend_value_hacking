@@ -43,4 +43,5 @@ Yup, yup, yup, and yup!
 
 ## General Notes
 
+- Overall I think it looks pretty great, I think it just needs a clearer separation of repication and extension.
 - I'm curious why you settled on >6 for hub cities - is that informed by the original paper, your own analysis, or something else?
