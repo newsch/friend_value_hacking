@@ -15,7 +15,7 @@ I'd be curious to see the relationship between degree of connectivity and popula
 
 ### Results: Do you understand what the results are (not yet considering their interpretation)?  If they are presented graphically, are the visualizations effective?  Do all figures have labels on the axes and captions?
 
-The results of the original report aren't presented graphically.
+The results of the original report aren't presented graphically, but the figures that ae in the report are all labeled.
 
 ### Interpretation: Does the draft report interpret the results as an answer to the motivating question?  Does the argument hold water?
 
