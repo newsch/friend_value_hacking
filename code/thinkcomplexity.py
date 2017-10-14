@@ -180,6 +180,31 @@ def path_lengths(G):
 
 
 
+from datetime import datetime as dt
+
+def path_lengths_WFI(G):
+    print("start",dt.now())
+    length_map = [([np.inf] * len(G)) for i in range(len(G))]
+    print("made map",dt.now())
+    enumerated_nodes = list(enumerate(G.nodes()))
+    node_index_map = {node: i for i, node in enumerated_nodes}
+    print("start basecase",dt.now())
+    for i, i_node in enumerated_nodes:
+        length_map[i][i] = 0
+        for j_node in G[i_node]:
+            length_map[i][node_index_map[j_node]] = 1
+    print("finish basecase", dt.now())
+    for k, k_node in enumerated_nodes:
+        for i, i_node in enumerated_nodes:
+            for j, j_node in enumerated_nodes:
+                computed_length = length_map[i][k] + length_map[k][j]
+                if length_map[i][j] > computed_length:
+                    length_map[i][j] = computed_length
+    print("finish computation", dt.now())
+    return [length_map[i][j] for i in range(len(G)) for j in range(len(G)) if i<j]
+
+
+
 def characteristic_path_length(G):
     return np.mean(path_lengths(G))
 
