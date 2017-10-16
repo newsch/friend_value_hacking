@@ -210,7 +210,7 @@ def Clf():
 
 def Figure(**options):
     """Sets options for the current figure."""
-    _Underride(options, figsize=(6, 8))
+    _Underride(options, figsize=(8, 6))
     plt.figure(**options)
 
 
