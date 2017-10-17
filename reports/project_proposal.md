@@ -14,11 +14,11 @@ We’ll build on what Allen Downey has started replicating Feld’s work and tes
 
 Some example graphs:
 
-![friend comparison with a BA graph](assets/ba_friend_comparison.png)
+![friend comparison with a BA graph](assets/proposal/ba_friend_comparison.png)
 
 Sampling by nodes and by edges yield similar distributions with a Barabassi-Albert graph.
 
-![friend comparison with a facebook dataset](assets/fb_friend_comparison.png)
+![friend comparison with a facebook dataset](assets/proposal/fb_friend_comparison.png)
 
 Sampling by nodes and by edges yield dissimilar distributions with a Facebook dataset.
 
@@ -48,4 +48,7 @@ Newman, M. E., & Park, J. (2003). Why social networks are different from other t
 Newman and Park discuss the structure of social networks and how they differ from other networks. They observe high clustering levels and hypothesize that this is the result of communities in social networks. They propose a model of community structure to explain the clustering.
 
 TODO:
-Kossinets, G. (2006). Effects of missing data in social networks. Social networks, 28(3), 247-268.
+- Effects of missing data in social networks
+- Random graph models of social networks
+- Friendship Paradox Redux: Your Friends Are More Interesting Than You
+-

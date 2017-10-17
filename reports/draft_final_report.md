@@ -5,14 +5,14 @@ Serena Chen and Evan Lloyd New-Schmidt
 
 In his 1991 paper _Why your friends have more friends than you do_, Thomas Feld observed the “friendship paradox”, that most people have fewer friends than their friends. In replicating the experiment we found that different methods of sampling friends would yield the same results in the Barabasi-Albert model that we used, but would yield slightly different results on datasets collected from real world networks, specifically SNAP’s dataset on the Facebook network. We set out to explore why these methods of sampling yielded different results and which better represents the friendship paradox.
 
-## Comparing Sampling Methods 
+## Comparing Sampling Methods
 
 We started with comparing the distribution of friends-of-friends for a sampling of edges or a sampling of nodes for a variety of datasets, mostly from SNAP.  Sampling by edges was done by randomly selecting an edge on the network and randomly selecting one of the edge’s nodes, as was done in Feld’s original study. Sampling by node was done by randomly selecting a node on the network and randomly selecting one of that node’s friends. We compared the distributions of these two methods of sampling with the distribution of friends-of-friends for all nodes. We noticed that all three of these distributions were mostly equivalent for the Barabasi-Albert graph, but for SNAP’s Facebook, Enron, and Youtube datasets, sampling by node resulted in a different distribution than sampling by edges or directly sampling all friends. Specifically, in many of the real-world networks, more nodes have a smaller friend count when sampling by node than when sampling by edges.
 
-![ba comparison](assets/ba_sampling_log.png)
-![facebook comparison](assets/fb_sampling_log.png)
-![enron comparison](assets/en_sampling_log.png)
-![youtube comparison](assets/yt_sampling_log.png)
+![ba comparison](assets/draft/ba_sampling_log.png)
+![facebook comparison](assets/draft/fb_sampling_log.png)
+![enron comparison](assets/draft/en_sampling_log.png)
+![youtube comparison](assets/draft/yt_sampling_log.png)
 
 ## Observing Graph Characteristics
 
