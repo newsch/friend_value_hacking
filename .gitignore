@@ -1,3 +1,9 @@
+# data files
+*/facebook_combined.txt.gz
+*/wiki-Vote.txt.gz
+*/email-Enron.txt.gz
+*/com-youtube.ungraph.txt.gz
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
